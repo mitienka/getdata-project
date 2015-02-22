@@ -1,5 +1,5 @@
 # getdata-project
-	* Contributor : Frederic Grenier (mitienka)* 
+	*Contributor : Frederic Grenier (mitienka)* 
 
 This repository contains the following files for the Coursera Getting and Cleaning Data course project.
 
