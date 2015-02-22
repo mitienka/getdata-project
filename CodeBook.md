@@ -45,6 +45,7 @@ Once downloaded and un-zipped in your working directory, the data set contains t
 
 ### Column description
 The two resulting data sets contain the following 68 columns:
+
 	- ActivityName : Identifies the activity performed (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)
 	- Subject : Identifies the subject who performed the activity. Ranges from 1 to 30.
 	- tBodyAcc.mean...X
