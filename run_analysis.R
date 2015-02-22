@@ -95,4 +95,6 @@ run_analysis <- function() {
 
 	## Export Tidy Data Set
 	write.table(tidyData, file="./tidyDataset.txt", row.names=FALSE)
+	
+	return(tidyData)
 }
