@@ -30,7 +30,7 @@ run_analysis <- function() {
 	}
 	
 	## Import the file features.txt containing the column names of the measurement files
-	## The data frame is transformed in a vector to be used as col.names when importing both data sets
+	## The data frame is transformed in a vector to be used as col.names when importing both train and test data sets
 	ColNamesF <- file.path(dataPath,"features.txt", fsep = .Platform$file.sep)
 	measureFileColNames <- read.table(ColNamesF, header=FALSE, row.names=1, colClasses="character", col.names=c("id","ColNames"))
 	colNamesVector <- measureFileColNames[,"ColNames"]
