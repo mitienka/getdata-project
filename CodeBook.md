@@ -1,5 +1,5 @@
 
-# Data cleanup of the UCI Human Activit Recognition Dataset
+# Data cleanup of the UCI Human Activity Recognition Dataset
 
 The original data set was obtained from the University of California Irvine Center for Machine Learning and Intelligent Systems.
 It contains a 'Human Activity Recognition database built from the recordings of 30 subjects performing six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone on the waist.'
