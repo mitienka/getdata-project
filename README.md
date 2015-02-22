@@ -6,17 +6,15 @@ This repository contains the following files for the Coursera Getting and Cleani
 	1. run_analysis.R : a script used to transform the original data set. Returns a tidy data set.
 	2. CodeBook.md : a markdown file describing the original data set and the two files obtained after running the script.
 
-
-
-
 ## Using the run_analysis.R script
 
 The R script run_analysis.R is used to merge the train and test source data sets in order to obtain two new files :
-	- mergedDataset.txt
-	- tidyDataset.txt
+
+	1. mergedDataset.txt
+	2. tidyDataset.txt
 	
 The script must be placed in your working directory.
-The script assumes that the source data is in a folder named  "./UCI HAR Dataset" within your working directory.
+The script assumes that the source data is in a folder named  **"./UCI HAR Dataset"** within your working directory.
 The script uses the plyr library to create the tidy data set. If not present on your system, it will be installed.
 
 The script was used on a Windows 64-bits platform with R version 3.1.2
